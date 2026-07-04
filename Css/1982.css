@@ -1,1 +1,49 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f7f5f2;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  margin: 0;
+}
 
+.kartu {
+  max-width: 360px;
+  text-align: center;
+}
+
+#judul {
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.foto {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+#deskripsi {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#btnTranslate {
+  border: none;
+  background: #2b6cb0;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+#btnTranslate:hover {
+  background: #24588f;
+}
